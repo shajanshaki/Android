@@ -1,0 +1,2614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BRIDT-1787</Machine>
+    <WindowsUser>rajat.kumar</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>io.cordova.hellocordova</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>F:\ANGULAR\loginTemplate\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>DF55E194A3C2791761DBE9B84D9C869D51823B22F8478DBF28AEF06E0187AA62</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.hellocordova_1.0.0.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.hellocordova_h35559jr9hy9m!io.cordova.hellocordova</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.hellocordova</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\ANGULAR\loginTemplate\platforms\windows\build\windows\Debug\AnyCPU\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-27T07:43:04.887</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-05T13:08:42.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-05T13:08:42.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-05T13:08:42.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-05T13:08:42.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2017-09-05T13:08:42.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-05T13:08:42.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2017-09-05T13:08:42.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-05T13:08:42.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-05T13:08:42.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\findbarButton-next-rtl.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\findbarButton-next-rtl.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\findbarButton-next-rtl%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\findbarButton-next-rtl%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\findbarButton-next.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\findbarButton-next.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\findbarButton-next%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\findbarButton-next%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\findbarButton-previous-rtl.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\findbarButton-previous-rtl.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\findbarButton-previous-rtl%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\findbarButton-previous-rtl%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\findbarButton-previous.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\findbarButton-previous.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\findbarButton-previous%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\findbarButton-previous%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\loading-small.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\loading-small.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\loading-small%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\loading-small%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-documentProperties.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-documentProperties.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-documentProperties%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-documentProperties%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-firstPage.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-firstPage.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-firstPage%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-firstPage%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-handTool.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-handTool.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-handTool%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-handTool%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-lastPage.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-lastPage.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-lastPage%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-lastPage%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-rotateCcw.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-rotateCcw.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-rotateCcw%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-rotateCcw%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-rotateCw.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-rotateCw.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-rotateCw%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\secondaryToolbarButton-rotateCw%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\shadow.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\shadow.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\texture.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\texture.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-bookmark.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-bookmark.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-bookmark%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-bookmark%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-download.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-download.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-download%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-download%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-menuArrows.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-menuArrows.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-menuArrows%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-menuArrows%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-openFile.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-openFile.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-openFile%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-openFile%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-pageDown-rtl.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-pageDown-rtl.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-pageDown-rtl%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-pageDown-rtl%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-pageDown.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-pageDown.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-pageDown%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-pageDown%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-pageUp-rtl.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-pageUp-rtl.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-pageUp-rtl%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-pageUp-rtl%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-pageUp.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-pageUp.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-pageUp%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-pageUp%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-presentationMode.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-presentationMode.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-presentationMode%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-presentationMode%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-print.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-print.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-print%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-print%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-search.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-search.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-search%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-search%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-secondaryToolbarToggle-rtl.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-secondaryToolbarToggle-rtl.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-secondaryToolbarToggle-rtl%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-secondaryToolbarToggle-rtl%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-secondaryToolbarToggle.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-secondaryToolbarToggle.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-secondaryToolbarToggle%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-secondaryToolbarToggle%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-sidebarToggle-rtl.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-sidebarToggle-rtl.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-sidebarToggle-rtl%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-sidebarToggle-rtl%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:24.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-sidebarToggle.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-sidebarToggle.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-sidebarToggle%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-sidebarToggle%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-viewAttachments.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-viewAttachments.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-viewAttachments%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-viewAttachments%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-viewOutline-rtl.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-viewOutline-rtl.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-viewOutline-rtl%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-viewOutline-rtl%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-viewOutline.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-viewOutline.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-viewOutline%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-viewOutline%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-viewThumbnail.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-viewThumbnail.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-viewThumbnail%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-viewThumbnail%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-zoomIn.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-zoomIn.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-zoomIn%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-zoomIn%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-zoomOut.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-zoomOut.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\toolbarButton-zoomOut%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\toolbarButton-zoomOut%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\treeitem-collapsed-rtl.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\treeitem-collapsed-rtl.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\treeitem-collapsed-rtl%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\treeitem-collapsed-rtl%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\treeitem-collapsed.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\treeitem-collapsed.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\treeitem-collapsed%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\treeitem-collapsed%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\treeitem-expanded.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\treeitem-expanded.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\treeitem-expanded%402x.png">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\treeitem-expanded%402x.png</PackagePath>
+      <Modified>2017-09-05T13:55:25.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\shadow.png">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\shadow.png</PackagePath>
+      <Modified>2017-09-27T07:42:48.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\texture.png">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\texture.png</PackagePath>
+      <Modified>2017-09-27T07:42:48.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+      <Modified>2017-09-05T13:08:54.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\angular.js">
+      <PackagePath>www\angular.js</PackagePath>
+      <Modified>2017-09-27T07:42:48.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\app.js">
+      <PackagePath>www\app.js</PackagePath>
+      <Modified>2017-09-27T07:42:48.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\demo\app.js">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\demo\app.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\demo\server.js">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\demo\server.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\dist\angular-pdfjs-viewer.js">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\dist\angular-pdfjs-viewer.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\Gruntfile.js">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\Gruntfile.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\src\angular-pdfjs-viewer.js">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\src\angular-pdfjs-viewer.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\dist\angular-pdf.js">
+      <PackagePath>www\bower_components\angular-pdf\dist\angular-pdf.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\dist\angular-pdf.min.js">
+      <PackagePath>www\bower_components\angular-pdf\dist\angular-pdf.min.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\karma.conf.js">
+      <PackagePath>www\bower_components\angular-pdf\karma.conf.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\src\angular-pdf.directive.js">
+      <PackagePath>www\bower_components\angular-pdf\src\angular-pdf.directive.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\src\angular-pdf.module.js">
+      <PackagePath>www\bower_components\angular-pdf\src\angular-pdf.module.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\webpack.config.js">
+      <PackagePath>www\bower_components\angular-pdf\webpack.config.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\angular.js">
+      <PackagePath>www\bower_components\angular\angular.js</PackagePath>
+      <Modified>2017-09-27T07:42:48.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\angular.min.js">
+      <PackagePath>www\bower_components\angular\angular.min.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\index.js">
+      <PackagePath>www\bower_components\angular\index.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\Gruntfile.js">
+      <PackagePath>www\bower_components\pdf.js-viewer\Gruntfile.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\grunt\css-prefix.js">
+      <PackagePath>www\bower_components\pdf.js-viewer\grunt\css-prefix.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\pdf.js">
+      <PackagePath>www\bower_components\pdf.js-viewer\pdf.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\pdf.worker.js">
+      <PackagePath>www\bower_components\pdf.js-viewer\pdf.worker.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\build\pdf.combined.js">
+      <PackagePath>www\bower_components\pdfjs-dist\build\pdf.combined.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\build\pdf.js">
+      <PackagePath>www\bower_components\pdfjs-dist\build\pdf.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\build\pdf.min.js">
+      <PackagePath>www\bower_components\pdfjs-dist\build\pdf.min.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\build\pdf.worker.entry.js">
+      <PackagePath>www\bower_components\pdfjs-dist\build\pdf.worker.entry.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\build\pdf.worker.js">
+      <PackagePath>www\bower_components\pdfjs-dist\build\pdf.worker.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\build\pdf.worker.min.js">
+      <PackagePath>www\bower_components\pdfjs-dist\build\pdf.worker.min.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\compatibility.js">
+      <PackagePath>www\bower_components\pdfjs-dist\web\compatibility.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\pdf_viewer.js">
+      <PackagePath>www\bower_components\pdfjs-dist\web\pdf_viewer.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+      <Modified>2017-09-05T13:08:54.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2017-09-05T13:08:54.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\js\BasicController.js">
+      <PackagePath>www\js\BasicController.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\server.js">
+      <PackagePath>www\server.js</PackagePath>
+      <Modified>2017-09-27T07:42:49.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2017-09-05T13:08:52.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower.json">
+      <PackagePath>www\bower.json</PackagePath>
+      <Modified>2017-09-27T07:42:48.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\.bower.json">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\.bower.json</PackagePath>
+      <Modified>2017-09-05T14:01:30.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\bower.json">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\bower.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\demo\bower.json">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\demo\bower.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\demo\package.json">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\demo\package.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\package.json">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\package.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\.bower.json">
+      <PackagePath>www\bower_components\angular-pdf\.bower.json</PackagePath>
+      <Modified>2017-09-27T07:42:46.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\bower.json">
+      <PackagePath>www\bower_components\angular-pdf\bower.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\.bower.json">
+      <PackagePath>www\bower_components\angular\.bower.json</PackagePath>
+      <Modified>2017-09-05T13:55:22.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\bower.json">
+      <PackagePath>www\bower_components\angular\bower.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\package.json">
+      <PackagePath>www\bower_components\angular\package.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\.bower.json">
+      <PackagePath>www\bower_components\pdf.js-viewer\.bower.json</PackagePath>
+      <Modified>2017-09-05T13:55:22.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\bower.json">
+      <PackagePath>www\bower_components\pdf.js-viewer\bower.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\package.json">
+      <PackagePath>www\bower_components\pdf.js-viewer\package.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\.bower.json">
+      <PackagePath>www\bower_components\pdfjs-dist\.bower.json</PackagePath>
+      <Modified>2017-09-27T07:42:46.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\bower.json">
+      <PackagePath>www\bower_components\pdfjs-dist\bower.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\package.json">
+      <PackagePath>www\bower_components\pdfjs-dist\package.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\package.json">
+      <PackagePath>www\package.json</PackagePath>
+      <Modified>2017-09-27T07:42:49.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\demo\example.pdf">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\demo\example.pdf</PackagePath>
+      <Modified>2017-09-05T14:01:30.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\example.pdf">
+      <PackagePath>www\example.pdf</PackagePath>
+      <Modified>2017-09-06T07:37:49.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\demo\index.html">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\demo\index.html</PackagePath>
+      <Modified>2017-09-27T07:42:49.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\viewer.html">
+      <PackagePath>www\bower_components\pdf.js-viewer\viewer.html</PackagePath>
+      <Modified>2017-09-27T07:42:49.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\captcha.html">
+      <PackagePath>www\captcha.html</PackagePath>
+      <Modified>2017-09-27T07:42:49.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2017-09-27T07:43:40.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\pdf.html">
+      <PackagePath>www\pdf.html</PackagePath>
+      <Modified>2017-09-27T07:42:49.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\viewer.html">
+      <PackagePath>www\viewer.html</PackagePath>
+      <Modified>2017-09-27T07:42:49.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\LICENSE">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\LICENSE</PackagePath>
+      <Modified>2017-09-05T14:01:30.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\LICENSE">
+      <PackagePath>www\bower_components\angular-pdf\LICENSE</PackagePath>
+      <Modified>2017-09-27T07:42:46.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\LICENSE">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\LICENSE</PackagePath>
+      <Modified>2017-09-05T13:55:24.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\LICENSE">
+      <PackagePath>www\bower_components\pdf.js-viewer\LICENSE</PackagePath>
+      <Modified>2017-09-05T13:55:22.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\LICENSE">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\LICENSE</PackagePath>
+      <Modified>2017-09-27T07:42:47.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\LICENSE">
+      <PackagePath>www\bower_components\pdfjs-dist\LICENSE</PackagePath>
+      <Modified>2017-09-27T07:42:46.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdfjs-viewer\README.md">
+      <PackagePath>www\bower_components\angular-pdfjs-viewer\README.md</PackagePath>
+      <Modified>2017-09-05T14:01:30.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\CHANGELOG.md">
+      <PackagePath>www\bower_components\angular-pdf\CHANGELOG.md</PackagePath>
+      <Modified>2017-09-27T07:42:46.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\README.md">
+      <PackagePath>www\bower_components\angular-pdf\README.md</PackagePath>
+      <Modified>2017-09-27T07:42:46.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\LICENSE.md">
+      <PackagePath>www\bower_components\angular\LICENSE.md</PackagePath>
+      <Modified>2017-09-05T13:55:22.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\README.md">
+      <PackagePath>www\bower_components\angular\README.md</PackagePath>
+      <Modified>2017-09-05T13:55:22.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\README.md">
+      <PackagePath>www\bower_components\pdf.js-viewer\README.md</PackagePath>
+      <Modified>2017-09-05T13:55:22.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\README.md">
+      <PackagePath>www\bower_components\pdfjs-dist\README.md</PackagePath>
+      <Modified>2017-09-27T07:42:46.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\dist\angular-pdf.js.map">
+      <PackagePath>www\bower_components\angular-pdf\dist\angular-pdf.js.map</PackagePath>
+      <Modified>2017-09-27T07:42:46.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\dist\angular-pdf.min.js.map">
+      <PackagePath>www\bower_components\angular-pdf\dist\angular-pdf.min.js.map</PackagePath>
+      <Modified>2017-09-27T07:42:46.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\angular.min.js.map">
+      <PackagePath>www\bower_components\angular\angular.min.js.map</PackagePath>
+      <Modified>2017-09-05T13:55:22.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular-pdf\ng-pdf.gif">
+      <PackagePath>www\bower_components\angular-pdf\ng-pdf.gif</PackagePath>
+      <Modified>2017-09-27T07:42:46.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\loading-icon.gif">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\loading-icon.gif</PackagePath>
+      <Modified>2017-09-05T13:55:24.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\loading-icon.gif">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\loading-icon.gif</PackagePath>
+      <Modified>2017-09-27T07:42:48.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\angular-csp.css">
+      <PackagePath>www\bower_components\angular\angular-csp.css</PackagePath>
+      <Modified>2017-09-27T07:42:48.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\viewer-overwrites.css">
+      <PackagePath>www\bower_components\pdf.js-viewer\viewer-overwrites.css</PackagePath>
+      <Modified>2017-09-27T07:42:49.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\viewer.css">
+      <PackagePath>www\bower_components\pdf.js-viewer\viewer.css</PackagePath>
+      <Modified>2017-09-27T07:42:49.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\pdf_viewer.css">
+      <PackagePath>www\bower_components\pdfjs-dist\web\pdf_viewer.css</PackagePath>
+      <Modified>2017-09-27T07:42:49.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2017-09-27T07:42:49.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+      <Modified>2017-09-05T13:08:54.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\css\style.css">
+      <PackagePath>www\css\style.css</PackagePath>
+      <Modified>2017-09-27T07:42:49.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\angular\angular.min.js.gzip">
+      <PackagePath>www\bower_components\angular\angular.min.js.gzip</PackagePath>
+      <Modified>2017-09-05T13:55:22.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\build.sh">
+      <PackagePath>www\bower_components\pdf.js-viewer\build.sh</PackagePath>
+      <Modified>2017-09-05T13:55:23.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\78-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\78-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\78-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\78-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\78-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\78-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\78-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\78-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\78-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\78-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\78-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\78-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\78ms-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\78ms-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\78ms-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\78ms-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\83pv-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\83pv-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\90ms-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\90ms-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\90ms-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\90ms-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\90msp-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\90msp-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\90msp-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\90msp-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\90pv-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\90pv-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\90pv-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\90pv-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Add-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Add-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Add-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Add-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Add-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Add-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Add-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Add-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-0.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-0.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-1.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-1.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-2.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-2.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-3.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-3.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-4.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-4.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-5.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-5.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-6.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-6.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-UCS2.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-CNS1-UCS2.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-0.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-0.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-1.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-1.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-2.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-2.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-3.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-3.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-4.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-4.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-5.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-5.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-UCS2.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-GB1-UCS2.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-0.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-0.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-1.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-1.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-2.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-2.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-3.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-3.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-4.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-4.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-5.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-5.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-6.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-6.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-UCS2.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Japan1-UCS2.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Korea1-0.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Korea1-0.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Korea1-1.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Korea1-1.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Korea1-2.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Korea1-2.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Adobe-Korea1-UCS2.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Adobe-Korea1-UCS2.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\B5pc-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\B5pc-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\B5pc-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\B5pc-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\CNS-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\CNS-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\CNS-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\CNS-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\CNS1-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\CNS1-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\CNS1-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\CNS1-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\CNS2-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\CNS2-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\CNS2-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\CNS2-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\ETen-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\ETen-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\ETen-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\ETen-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\ETenms-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\ETenms-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\ETenms-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\ETenms-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\ETHK-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\ETHK-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\ETHK-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\ETHK-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Ext-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Ext-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Ext-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Ext-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Ext-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Ext-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Ext-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Ext-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.584</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GB-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GB-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GB-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GB-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GB-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GB-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GB-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GB-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBK-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBK-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBK-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBK-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBK2K-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBK2K-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBK2K-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBK2K-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBKp-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBKp-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBKp-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBKp-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBpc-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBpc-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBpc-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBpc-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBT-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBT-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBT-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBT-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBT-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBT-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBT-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBT-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBTpc-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBTpc-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\GBTpc-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\GBTpc-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Hankaku.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Hankaku.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Hiragana.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Hiragana.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKdla-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKdla-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKdla-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKdla-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKdlb-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKdlb-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKdlb-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKdlb-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKgccs-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKgccs-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKgccs-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKgccs-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKm314-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKm314-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKm314-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKm314-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKm471-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKm471-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKm471-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKm471-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKscs-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKscs-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\HKscs-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\HKscs-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Katakana.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Katakana.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSC-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSC-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSC-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSC-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSC-Johab-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSC-Johab-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSC-Johab-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSC-Johab-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSCms-UHC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSCms-UHC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSCms-UHC-HW-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSCms-UHC-HW-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSCms-UHC-HW-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSCms-UHC-HW-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSCms-UHC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSCms-UHC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSCpc-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSCpc-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\KSCpc-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\KSCpc-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:23.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\NWP-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\NWP-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\NWP-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\NWP-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\Roman.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\Roman.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniCNS-UCS2-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniCNS-UCS2-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniCNS-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniCNS-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniCNS-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniGB-UCS2-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniGB-UCS2-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniGB-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniGB-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniGB-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UCS2-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UCS2-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UCS2-HW-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UCS2-HW-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UCS2-HW-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UCS2-HW-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJIS2004-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJISPro-UCS2-HW-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJISPro-UCS2-HW-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJISPro-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJISPro-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJISPro-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJISPro-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJISX0213-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJISX0213-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJISX0213-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJISX0213-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJISX02132004-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJISX02132004-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniJISX02132004-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniJISX02132004-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniKS-UCS2-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniKS-UCS2-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniKS-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniKS-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\UniKS-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\V.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\V.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\cmaps\WP-Symbol.bcmap">
+      <PackagePath>www\bower_components\pdf.js-viewer\cmaps\WP-Symbol.bcmap</PackagePath>
+      <Modified>2017-09-05T13:55:24.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\78-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\78-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\78-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\78-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\78-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\78-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\78-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\78-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\78-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\78-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\78-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\78-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\78ms-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\78ms-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\78ms-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\78ms-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\83pv-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\83pv-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\90ms-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\90ms-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\90ms-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\90ms-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\90msp-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\90msp-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\90msp-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\90msp-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\90pv-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\90pv-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\90pv-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\90pv-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Add-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Add-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Add-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Add-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Add-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Add-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Add-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Add-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-0.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-0.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-1.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-1.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-2.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-2.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-3.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-3.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-4.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-4.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-5.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-5.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-6.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-6.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-UCS2.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-CNS1-UCS2.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-0.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-0.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-1.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-1.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-2.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-2.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-3.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-3.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-4.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-4.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-5.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-5.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-UCS2.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-GB1-UCS2.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-0.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-0.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-1.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-1.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-2.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-2.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-3.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-3.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-4.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-4.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-5.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-5.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-6.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-6.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-UCS2.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Japan1-UCS2.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Korea1-0.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Korea1-0.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Korea1-1.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Korea1-1.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Korea1-2.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Korea1-2.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Adobe-Korea1-UCS2.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Adobe-Korea1-UCS2.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\B5pc-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\B5pc-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\B5pc-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\B5pc-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\CNS-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\CNS-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\CNS-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\CNS-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\CNS1-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\CNS1-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\CNS1-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\CNS1-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\CNS2-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\CNS2-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\CNS2-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\CNS2-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\ETen-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\ETen-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\ETen-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\ETen-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\ETenms-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\ETenms-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\ETenms-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\ETenms-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\ETHK-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\ETHK-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\ETHK-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\ETHK-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Ext-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Ext-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Ext-RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Ext-RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Ext-RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Ext-RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Ext-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Ext-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GB-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GB-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GB-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GB-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GB-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GB-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GB-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GB-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBK-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBK-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBK-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBK-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBK2K-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBK2K-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBK2K-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBK2K-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBKp-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBKp-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBKp-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBKp-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBpc-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBpc-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBpc-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBpc-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBT-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBT-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBT-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBT-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBT-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBT-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBT-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBT-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBTpc-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBTpc-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\GBTpc-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\GBTpc-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Hankaku.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Hankaku.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Hiragana.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Hiragana.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKdla-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKdla-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKdla-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKdla-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKdlb-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKdlb-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKdlb-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKdlb-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKgccs-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKgccs-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKgccs-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKgccs-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKm314-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKm314-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKm314-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKm314-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKm471-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKm471-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKm471-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKm471-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKscs-B5-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKscs-B5-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\HKscs-B5-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\HKscs-B5-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Katakana.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Katakana.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSC-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSC-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSC-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSC-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSC-Johab-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSC-Johab-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSC-Johab-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSC-Johab-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSCms-UHC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSCms-UHC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSCms-UHC-HW-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSCms-UHC-HW-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSCms-UHC-HW-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSCms-UHC-HW-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSCms-UHC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSCms-UHC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSCpc-EUC-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSCpc-EUC-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\KSCpc-EUC-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\KSCpc-EUC-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\NWP-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\NWP-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\NWP-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\NWP-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\RKSJ-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\RKSJ-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\RKSJ-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\RKSJ-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\Roman.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\Roman.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniCNS-UCS2-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniCNS-UCS2-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniCNS-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniCNS-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniCNS-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniGB-UCS2-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniGB-UCS2-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniGB-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniGB-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniGB-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniGB-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniGB-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniGB-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniGB-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniGB-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniGB-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniGB-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniGB-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniGB-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniGB-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniGB-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UCS2-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UCS2-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UCS2-HW-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UCS2-HW-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UCS2-HW-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UCS2-HW-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:47.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJIS2004-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJISPro-UCS2-HW-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJISPro-UCS2-HW-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJISPro-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJISPro-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJISPro-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJISPro-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJISX0213-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJISX0213-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJISX0213-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJISX0213-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJISX02132004-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJISX02132004-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniJISX02132004-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniJISX02132004-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniKS-UCS2-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniKS-UCS2-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniKS-UCS2-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniKS-UCS2-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniKS-UTF16-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniKS-UTF16-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniKS-UTF16-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniKS-UTF16-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniKS-UTF32-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniKS-UTF32-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniKS-UTF32-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniKS-UTF32-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniKS-UTF8-H.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniKS-UTF8-H.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\UniKS-UTF8-V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\UniKS-UTF8-V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\V.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\V.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\cmaps\WP-Symbol.bcmap">
+      <PackagePath>www\bower_components\pdfjs-dist\cmaps\WP-Symbol.bcmap</PackagePath>
+      <Modified>2017-09-27T07:42:48.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\annotation-check.svg">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\annotation-check.svg</PackagePath>
+      <Modified>2017-09-05T13:55:24.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\annotation-comment.svg">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\annotation-comment.svg</PackagePath>
+      <Modified>2017-09-05T13:55:24.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\annotation-help.svg">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\annotation-help.svg</PackagePath>
+      <Modified>2017-09-05T13:55:24.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\annotation-insert.svg">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\annotation-insert.svg</PackagePath>
+      <Modified>2017-09-05T13:55:24.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\annotation-key.svg">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\annotation-key.svg</PackagePath>
+      <Modified>2017-09-05T13:55:24.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\annotation-newparagraph.svg">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\annotation-newparagraph.svg</PackagePath>
+      <Modified>2017-09-05T13:55:24.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\annotation-noicon.svg">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\annotation-noicon.svg</PackagePath>
+      <Modified>2017-09-05T13:55:24.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\annotation-note.svg">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\annotation-note.svg</PackagePath>
+      <Modified>2017-09-05T13:55:24.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\annotation-paragraph.svg">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\annotation-paragraph.svg</PackagePath>
+      <Modified>2017-09-05T13:55:24.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\annotation-check.svg">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\annotation-check.svg</PackagePath>
+      <Modified>2017-09-27T07:42:48.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\annotation-comment.svg">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\annotation-comment.svg</PackagePath>
+      <Modified>2017-09-27T07:42:48.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\annotation-help.svg">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\annotation-help.svg</PackagePath>
+      <Modified>2017-09-27T07:42:48.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\annotation-insert.svg">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\annotation-insert.svg</PackagePath>
+      <Modified>2017-09-27T07:42:48.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\annotation-key.svg">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\annotation-key.svg</PackagePath>
+      <Modified>2017-09-27T07:42:48.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\annotation-newparagraph.svg">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\annotation-newparagraph.svg</PackagePath>
+      <Modified>2017-09-27T07:42:48.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\annotation-noicon.svg">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\annotation-noicon.svg</PackagePath>
+      <Modified>2017-09-27T07:42:48.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\annotation-note.svg">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\annotation-note.svg</PackagePath>
+      <Modified>2017-09-27T07:42:48.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdfjs-dist\web\images\annotation-paragraph.svg">
+      <PackagePath>www\bower_components\pdfjs-dist\web\images\annotation-paragraph.svg</PackagePath>
+      <Modified>2017-09-27T07:42:48.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\grab.cur">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\grab.cur</PackagePath>
+      <Modified>2017-09-05T13:55:24.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\images\grabbing.cur">
+      <PackagePath>www\bower_components\pdf.js-viewer\images\grabbing.cur</PackagePath>
+      <Modified>2017-09-05T13:55:24.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ach\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ach\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\af\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\af\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ak\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ak\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\an\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\an\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ar\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ar\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ast\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ast\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\as\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\as\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\az\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\az\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\be\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\be\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\bg\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\bg\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\bn-BD\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\bn-BD\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\bn-IN\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\bn-IN\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\br\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\br\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\bs\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\bs\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ca\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ca\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\csb\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\csb\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\cs\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\cs\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\cy\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\cy\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\da\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\da\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\de\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\de\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\el\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\el\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\en-GB\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\en-GB\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\en-US\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\en-US\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\en-ZA\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\en-ZA\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\eo\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\eo\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\es-AR\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\es-AR\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\es-CL\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\es-CL\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\es-ES\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\es-ES\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\es-MX\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\es-MX\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\et\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\et\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\eu\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\eu\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\fa\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\fa\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ff\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ff\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\fi\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\fi\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\fr\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\fr\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\fy-NL\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\fy-NL\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ga-IE\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ga-IE\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\gd\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\gd\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\gl\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\gl\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\gu-IN\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\gu-IN\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\he\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\he\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\hi-IN\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\hi-IN\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\hr\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\hr\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\hu\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\hu\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\hy-AM\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\hy-AM\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.645</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\id\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\id\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\is\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\is\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\it\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\it\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ja\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ja\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ka\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ka\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\kk\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\kk\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\km\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\km\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\kn\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\kn\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ko\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ko\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ku\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ku\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\lg\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\lg\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\lij\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\lij\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\locale.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\locale.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\lt\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\lt\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\lv\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\lv\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\mai\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\mai\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\mk\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\mk\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ml\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ml\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\mn\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\mn\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\mr\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\mr\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ms\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ms\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\my\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\my\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\nb-NO\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\nb-NO\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\nl\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\nl\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\nn-NO\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\nn-NO\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\nso\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\nso\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\oc\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\oc\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\or\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\or\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\pa-IN\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\pa-IN\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\pl\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\pl\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\pt-BR\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\pt-BR\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:25.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\pt-PT\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\pt-PT\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\rm\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\rm\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ro\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ro\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ru\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ru\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\rw\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\rw\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\sah\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\sah\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\si\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\si\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\sk\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\sk\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\sl\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\sl\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\son\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\son\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\sq\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\sq\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\sr\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\sr\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\sv-SE\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\sv-SE\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\sw\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\sw\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ta-LK\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ta-LK\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ta\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ta\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\te\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\te\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\th\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\th\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\tl\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\tl\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\tn\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\tn\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\tr\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\tr\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\uk\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\uk\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\ur\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\ur\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\vi\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\vi\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\wo\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\wo\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\xh\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\xh\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\zh-CN\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\zh-CN\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\zh-TW\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\zh-TW\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\locale\zu\viewer.properties">
+      <PackagePath>www\bower_components\pdf.js-viewer\locale\zu\viewer.properties</PackagePath>
+      <Modified>2017-09-05T13:55:26.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\www\bower_components\pdf.js-viewer\viewer.less">
+      <PackagePath>www\bower_components\pdf.js-viewer\viewer.less</PackagePath>
+      <Modified>2017-09-05T13:55:26.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2017-09-27T07:42:45.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\ANGULAR\loginTemplate\platforms\windows\build\windows\Debug\AnyCPU\win8.1\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-27T07:43:43.877</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

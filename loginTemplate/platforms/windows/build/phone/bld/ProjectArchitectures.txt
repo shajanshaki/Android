@@ -1,0 +1,1 @@
+F:\ANGULAR\loginTemplate\platforms\windows\CordovaApp.Phone.jsproj;neutral

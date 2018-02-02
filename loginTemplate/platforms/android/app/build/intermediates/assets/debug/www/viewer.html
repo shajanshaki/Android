@@ -1,0 +1,60 @@
+<!--<style>
+
+.img-responsive {
+    width: 85%;
+    height: 85%;
+}
+.pdf-responsive {
+    width: 100%;
+    height: 85%;
+}
+
+        .Zoom {
+    touch-action: auto !important;
+}
+.pdf-controls { width: 100%; display: block; background: #eee; padding: 1em;}
+.fixed { position: fixed; top: 0; left: calc(50% - 480px); z-index: 100; width: 100%; padding: 1em; background: rgba(238, 238, 238,.9); width: 960px; }
+</style>-->
+
+<md-dialog class="walk-through-wrapper">
+	<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-1 close-btn-container pull-right" ng-click="hidePopup($event)">
+				<div class="close-btn" ng-click="cancel()">
+					<p>X</p>
+				</div>
+			</div>
+		</div>
+		<div class="row walk-img" ng-class="{disableDash : loader.show}">
+			<!--<img src="images/windowStickerImage.png" class="img-responsive"/>-->
+			<div ng-show="loader.show" style="position: absolute;left: 42%;z-index: 1;top: 39%;" ><img src="images/loader.gif" /></div>
+<ng-pdf template-url="partials/pdfviewer.html" show-toolbar="true" scale="page-fit"></ng-pdf>
+<!--<button ng-click="zoomIn()">+</span></button>
+<button ng-click="fit()">100%</span></button>
+<button ng-click="zoomOut()">-</span></button>-->
+</div>
+</div>
+</md-dialog>
+
+
+
+
+
+
+<!--<md-dialog class="img-responsive">
+
+    <div class="row marginO">
+
+        <div class="col-md-12 padding0">
+    <div class="close" style="position: absolute;opacity: initial;"><img src="images/close.png" style="width: 25px;margin-left: 86%;margin-top: 22%;" ng-click="cancel()" /></div>
+        </div>
+    </div>
+    <div class="pdf-controls fixed " ng-class="{disableDash : loader.show}">-->
+        <!--<div ng-show="loader.show" style="position: absolute;left: 42%;z-index: 1;top: 39%;" ><img src="images/loader.gif" /></div>-->
+        <!--<button ng-click="zoomIn()">+</span></button>
+<button ng-click="fit()">100%</span></button>
+<button ng-click="zoomOut()">-</span></button>
+<ng-pdf template-url="partials/pdfviewer.html" show-toolbar="true" scale="page-fit"></ng-pdf>
+
+</div>
+</md-dialog>-->

@@ -1,0 +1,26 @@
+<form name="basicForm" novalidate ng-controller="BasicController" ng-submit="validate(basicForm.$valid)">
+
+  <div class="alert alert-success" ng-show="successMessages">
+    {{ successMessages }}
+  </div>
+
+  <div class="alert alert-error" ng-show="errorMessages">
+    {{ errorMessages }}
+  </div>
+
+  <!-- show Captcha image html-->
+  <botdetect-captcha styleName="angularBasicCaptcha"></botdetect-captcha>
+
+  <label>
+    <span>Retype the characters from the picture:</span>
+    <!-- captcha code user input textbox -->
+    <input type="text" name="captchaCode" ng-model="captchaCode" correct-captcha id="captchaCode" autocomplete="off">
+  </label>
+
+
+  <div class="error" ng-show="basicForm.captchaCode.$invalid && !basicForm.captchaCode.$pristine">
+    Incorrect code.
+  </div>
+
+  <button type="submit" ng-disabled="basicForm.$invalid">Validate</button>
+</form>
