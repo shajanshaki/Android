@@ -1,0 +1,6 @@
+http://172.16.84.60:8080/
+
+ssh-keygen -t rsa
+
+cat .ssh/id_rsa.pub
+
