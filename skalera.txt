@@ -1,0 +1,41 @@
+sonar.projectKey=Skalera
+sonar.projectName=SMC
+sonar.projectVersion=1.0
+sonar.sourceEncoding=UTF-8
+sonar.scm.disabled=true
+
+sonar.modules =Server, Source_TS, Source_JS, Source_CSS, Source_JSON, Source_HTML
+
+Server.sonar.projectName=Server
+Server.sonar.language=js
+Server.sonar.sources=server
+Server.sonar.exclusions= server/bin/**
+Server.sonar.projectBaseDir=.
+
+Source.sonar.projectName=Source_TS
+#Source_TS.sonar.language=ts
+Source_TS.sonar.sources=src
+Source_TS.sonar.exclusions= src/js/**, src/assets/css/**, **/*index.html, **/*styles.css, **/*stylesii.css, **/*tsconfig.app.json, **/*tsconfig.json, **/*tsconfig.spec.json, **/*app.component.html, **/*app.component.css, **/*bootstrap.min.css, **/*adminlogin.component.css, **/*adminlogin.component.html, **/*adminhome.component.css, **/*adminhome.component.html, **/*tenantlist.component.css, **/*tenantlist.component.html, **/*tenantconfig.component.css, **/*tenantconfig.component.html, **/*tenantregistration.component.html, **/*login.component.html, **/*test.component.html, **/*log.component.html, **/*home.component.html, **/*cloudexpensechild.component.html, **/*cloudexpensechild.component.css, **/*availability.component.html, **/*availability.component.html, **/*loganalyzer.component.html, **/*sidebar.component.css, **/*sidebar.component.html, **/*piechart.component.css, **/*piechart.component.html, **/*availability.component.html, **/*loganalyzer.component.css, **/*loganalyzer.component.html, **/*sidebar.component.html, **/*header.component.css, **/*header.component.html, **/*budget.component.css, **/*budget.component.html, **/*configuration.component.css, **/*configuration.component.html, **/*instanceanalyzer.component.css, **/*instanceanalyzer.component.html, **/*policybuilder.component.css, **/*policybuilder.component.html, **/*recommendation.component.css, **/*recommendation.component.html, **/*region.component.css, **/*region.component.html, **/*summary.component.css, **/*summary.component.html, **/*cloudexpense.component.css, **/*cloudexpense.component.html, **/*barchart.component.css, **/*barchart.component.html, **/*availabilityincidents.component.css, **/*availabilityincidents.component.html, **/*availabilitysummary.component.css, **/*availabilitysummary.component.html, **/*availability.component.css, **/*availability.component.html, **/*loganalyzer.component.html, **/*sidebar.component.html, **/*jsFile.js, **/*d3.v4.min.js, 
+Source_TS.sonar.ts.coverage.lcovReportPath=.
+Source_TS.sonar.projectBaseDir=.
+
+Source_JS.sonar.projectName=Source_JS
+Source_JS.sonar.language=js
+Source_JS.sonar.sources=src
+Source_JS.sonar.projectBaseDir=.
+
+Source_CSS.sonar.projectName=Source_CSS
+Source_CSS.sonar.language=css
+Source_CSS.sonar.sources=src
+Source_CSS.sonar.exclusions=**/*bootstrap.min.css, **/*bootstrap_skalera.min.css, **/*font-awesome.min.css, **/*fonts.css
+Source_CSS.sonar.projectBaseDir=.
+
+Source_JSON.sonar.projectName=Source_JSON
+Source_JSON.sonar.language=json
+Source_JSON.sonar.sources=src
+Source_JSON.sonar.projectBaseDir=.
+
+Source_HTML.sonar.projectName=Source_HTML
+Source_HTML.sonar.language=web
+Source_HTML.sonar.sources=src
+Source_HTML.sonar.projectBaseDir=.
