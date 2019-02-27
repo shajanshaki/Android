@@ -39,3 +39,10 @@ Source_HTML.sonar.projectName=Source_HTML
 Source_HTML.sonar.language=web
 Source_HTML.sonar.sources=src
 Source_HTML.sonar.projectBaseDir=.
+
+-----------------------------------------------------
+
+Source_HTML.sonar.projectName=Source_HTML
+Source_HTML.sonar.language=web
+Source_HTML.sonar.sources=src
+Source_HTML.sonar.projectBaseDir=.
